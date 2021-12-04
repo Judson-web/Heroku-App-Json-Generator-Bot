@@ -1,0 +1,49 @@
+{
+    "name": "Heroku-App-Json-Generator-Bot",
+    "logo": "https://telegra.ph//file/0920af0b4ccab760f7fb2.jpg",
+    "description": "A Heroku app.json Generator Telegram Bot",
+    "keywords": [
+        "heroku",
+        "bot",
+        "telegram",
+        "appjson"
+    ],
+    "repository": "https://github.com/Judson-web/Heroku-App-Json-Generator-Bot",
+    "website": "https://github.com/Judson-web",
+    "success_url": "https://t.me/HerokUappJsonGeneratorBot",
+    "env": {
+        "API_HASH": {
+            "description": "Get from my.telegram.org",
+            "required": "True",
+            "value": "required"
+        },
+        "API_ID": {
+            "description": "Get from my.telegram.org",
+            "required": "True",
+            "value": "required"
+        },
+        "BOT_TOKEN": {
+            "description": "Get from https",
+            "required": "True",
+            "value": "//t.me/BotFather"
+        },
+        "SESSION_NAME": {
+            "description": "Any Session Name of Bot",
+            "required": "True",
+            "value": "value",
+            "generator": "secret"
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
