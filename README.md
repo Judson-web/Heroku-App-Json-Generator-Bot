@@ -8,7 +8,7 @@ A Telegram bot for making Heroku app.json
 ### Deploy to Heroku
 Click Below Button to Deploy to Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/<none>)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Judson-web/Heroku-App-Json-Generator-Bot)
 
 ### Movie Group:
 <a href="https://t.me/storytym"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
