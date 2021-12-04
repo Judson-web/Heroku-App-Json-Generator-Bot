@@ -46,7 +46,7 @@ async def f_command(bot: Client, m: Message):
             await bot.send_document(
                 chat_id=m.chat.id,
                 document=app_json,
-                caption="`𝙼𝚊𝚍𝚎 𝙱𝚢 [𝙼𝚒𝚌𝚔𝚎𝚢](https://t.me/STMbOTsUPPORTgROUP)`",
+                caption="`𝙼𝚊𝚍𝚎 𝙱𝚢 @STMbOTsUPPORTgROUP`",
             )
             await editable.edit("𝚂𝚎𝚗𝚝 `𝚊𝚙𝚙.𝚓𝚜𝚘𝚗` !!")
             os.remove(app_json)
